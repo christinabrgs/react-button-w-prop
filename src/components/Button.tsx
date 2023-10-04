@@ -5,7 +5,7 @@ interface Props {
 export default function Button ({title}: Props) {
     return (
         <>
-        <button></button>
+        <button>{title}</button>
         </>
     )
 }
